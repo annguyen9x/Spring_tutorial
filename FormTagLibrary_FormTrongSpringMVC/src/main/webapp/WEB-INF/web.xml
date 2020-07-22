@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>Spring mvc</display-name>
+	<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<!-- Là servlet trong spring mvc điều khiển những request đến ứng dụng này -->
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springmcv</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
